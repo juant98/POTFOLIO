@@ -1,0 +1,39 @@
+
+p{
+    color: brown;
+}
+.header{
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.subtext{
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    color:rgb(168, 168, 168);
+}
+a[href*='juan']{
+    color:rgb(142, 171, 172);
+    font-family: sans-serif;
+}
+.link{
+    margin:auto; 
+    text-align:center; 
+    display:block
+    
+}
+a:hover{
+color:rgb(104, 72, 128);
+font-size: larger;
+}
+html{
+background:  url('./background.jpg') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
