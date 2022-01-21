@@ -12,10 +12,10 @@
     text-align: center;
     font-size: x-large;
     font-family: sans-serif;
-    color:rgb(168, 168, 168);
+    color:rgb(196, 196, 196);
 }
 a[href*='juan']{
-    color:rgb(142, 171, 172);
+    color:rgb(167, 203, 204);
     font-family: sans-serif;
 }
 .link{
@@ -23,6 +23,14 @@ a[href*='juan']{
     text-align:center; 
     display:block
     
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    width: 15%;
+    margin: auto;
+    display: block;
 }
 a:hover{
 color:rgb(104, 72, 128);
@@ -35,3 +43,7 @@ background:  url('./background.jpg') no-repeat center center fixed;
 -o-background-size: cover;
 background-size: cover;
 }
+.imag{
+    background-color: rgba(131, 106, 86, .5);
+}
+
